@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: $bg__body;
+    font-size:$fontsize;
+    padding:$pad__med;
+}
+
+.container{
+  background-color: $bg__container;  
+  font-family:$font;
+  max-width:1100px;
+  margin:auto;
+}
+
+header{
+    background-color: $bg__header;
+    padding:$pad__med;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        font-size:2em;
+        color:$fcolor__light;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo h3{
+        margin-left:.25em;
+    }
+
+    nav a{
+        color:white;
+        text-decoration: none;
+        padding:$pad__sm;
+        font-weight:bold;
+    }
+}
